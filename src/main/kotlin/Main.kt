@@ -1,7 +1,11 @@
 fun main(args: Array<String>) {
 
     returnTypeAsVoidSuccess()
+    unitReturnTypeForNonMeaningfulReturns()
 
+}
+fun unitReturnTypeForNonMeaningfulReturns(): Unit {
+    println("No meaningful return")
 }
 
 fun returnTypeAsVoidSuccess(): Void? {
